@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+
+
+body {}
+
+footer{}
+
+div{}
+
+span{}
+
+ul, li, a {
+    text-decoration: none;
+    list-style-type: none;
+}

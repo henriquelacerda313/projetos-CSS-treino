@@ -2,9 +2,23 @@
 
 
 
-body {}
+body {
+    background-color: #a5a3a3;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
 
-footer{}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
 
 div{}
 

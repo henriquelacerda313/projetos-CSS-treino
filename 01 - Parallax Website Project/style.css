@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;  /*conserta o linear gradiente ---- background-repeat: no-repeat; tem uma função semelhante mas não ocupa tela inteira*/
+    background: linear-gradient(#2b1055, #7597de);
+    
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+header .logo {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none; /*retira a bolinha do link*/
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+head ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a {
+
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+
+}
+
+header ul li a:hover {
+    background-color: #fff;
+    color: #2b1055;
+}
